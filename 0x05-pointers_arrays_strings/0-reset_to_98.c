@@ -3,6 +3,7 @@
 /*
  * this is a function that resets the value of n from 402 to 98
  * it doesn't return anything
+ * @n: pointer to n
  */
 void reset_to_98(int *n)
 {
