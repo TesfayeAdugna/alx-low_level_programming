@@ -3,14 +3,13 @@
 /**
  * swap_int - is a function to swap two numbers
  * 
+ * @a: first integer value to be swaped
+ * @b: second integer value to be swaped
  */
 void swap_int(int *a, int*b)
 {
-	int *temp;
-	temp = a;
-	*temp = *a;
-	a = b;
-	*a = *b;
-	b = temp;
-	*b = *temp;
+	int temp;
+	temp = *a;
+	*a = *b
+	*b = temp;
 }
